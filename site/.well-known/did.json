@@ -28,7 +28,7 @@
   ],
   "verificationMethod": [
     {
-      "id": "#f7bf2d2294dc4c04a7b7a21a13b487d4vcSigningKey-6dcb5",
+      "id": "#2c03afae74134cf6bce8ea7e62ac0bc8vcSigningKey-6dcb5",
       "controller": "did:web:entra.aviary.id",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
@@ -40,9 +40,9 @@
     }
   ],
   "authentication": [
-    "#f7bf2d2294dc4c04a7b7a21a13b487d4vcSigningKey-6dcb5"
+    "#2c03afae74134cf6bce8ea7e62ac0bc8vcSigningKey-6dcb5"
   ],
   "assertionMethod": [
-    "#f7bf2d2294dc4c04a7b7a21a13b487d4vcSigningKey-6dcb5"
+    "#2c03afae74134cf6bce8ea7e62ac0bc8vcSigningKey-6dcb5"
   ]
 }

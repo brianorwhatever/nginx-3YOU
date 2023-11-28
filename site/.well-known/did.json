@@ -1,0 +1,48 @@
+{
+  "id": "did:web:entra.aviary.id",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:entra.aviary.id"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://entra.aviary.id/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/c9620394-944b-49cd-9e02-bbba7349b1af"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#5f40921091464550b16759f42bccce65vcSigningKey-2d2e1",
+      "controller": "did:web:entra.aviary.id",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "upYHvLnDeXpJg8nad_NaBsoynqtcNGVHx1NhGZ5_KVY",
+        "y": "xLmt2OVpYIQDP2mX95TJhaukvNWuU4d3uol2uJQD5Ls"
+      }
+    }
+  ],
+  "authentication": [
+    "#5f40921091464550b16759f42bccce65vcSigningKey-2d2e1"
+  ],
+  "assertionMethod": [
+    "#5f40921091464550b16759f42bccce65vcSigningKey-2d2e1"
+  ]
+}

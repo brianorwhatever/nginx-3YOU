@@ -28,21 +28,21 @@
   ],
   "verificationMethod": [
     {
-      "id": "#2c03afae74134cf6bce8ea7e62ac0bc8vcSigningKey-6dcb5",
+      "id": "#016f35ce2a0a456a84886354b14ba05cvcSigningKey-d4b9a",
       "controller": "did:web:entra.aviary.id",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "crv": "P-256",
         "kty": "EC",
-        "x": "a5eyJfqnl9cTysCwnYFk0x_ilbulOeQP06S86K80wHc",
-        "y": "2qb_Mbal4WObBGJZ7nFE-OvR6BsORtfDt_1WcUhWQ-k"
+        "x": "fvOqWnMMcE1EmwNvaWf-_fg8ajYGGYVrkGLNOpOYGZg",
+        "y": "BRN-ZalVf5Tu0mBAwQppFR5s7zuPq1wdWneINOqOkEI"
       }
     }
   ],
   "authentication": [
-    "#2c03afae74134cf6bce8ea7e62ac0bc8vcSigningKey-6dcb5"
+    "#016f35ce2a0a456a84886354b14ba05cvcSigningKey-d4b9a"
   ],
   "assertionMethod": [
-    "#2c03afae74134cf6bce8ea7e62ac0bc8vcSigningKey-6dcb5"
+    "#016f35ce2a0a456a84886354b14ba05cvcSigningKey-d4b9a"
   ]
 }

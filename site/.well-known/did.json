@@ -1,48 +1,48 @@
 {
-    "id": "did:web:entra.aviary.id",
-    "@context": [
-        "https://www.w3.org/ns/did/v1",
-        {
-            "@base": "did:web:entra.aviary.id"
-        }
-    ],
-    "service": [
-        {
-            "id": "#linkeddomains",
-            "type": "LinkedDomains",
-            "serviceEndpoint": {
-                "origins": [
-                    "https://entra.aviary.id/"
-                ]
-            }
-        },
-        {
-            "id": "#hub",
-            "type": "IdentityHub",
-            "serviceEndpoint": {
-                "instances": [
-                    "https://hub.did.msidentity.com/v1.0/c9620394-944b-49cd-9e02-bbba7349b1af"
-                ]
-            }
-        }
-    ],
-    "verificationMethod": [
-        {
-            "id": "#7546a9e9aa9f4ba0a47aaa366fef029fvcSigningKey-61d9c",
-            "controller": "did:web:entra.aviary.id",
-            "type": "JsonWebKey2020",
-            "publicKeyJwk": {
-                "crv": "P-256",
-                "kty": "EC",
-                "x": "rVagxOonAWqzG7JOBbWqnrTps1pdqnEPRCfIo_MQG5Y",
-                "y": "yFsNgttfYsYAQKqaonvDlnKXj8xFBT-P7zUPm-c_Yh0"
-            }
-        }
-    ],
-    "authentication": [
-        "#7546a9e9aa9f4ba0a47aaa366fef029fvcSigningKey-61d9c"
-    ],
-    "assertionMethod": [
-        "#7546a9e9aa9f4ba0a47aaa366fef029fvcSigningKey-61d9c"
-    ]
+  "id": "did:web:entra.aviary.id",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:entra.aviary.id"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://entra.aviary.id/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/c9620394-944b-49cd-9e02-bbba7349b1af"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#9fbd06cea8f247f9b2ee01eee2c5029cvcSigningKey-6fdd8",
+      "controller": "did:web:entra.aviary.id",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "L0_nY5Jip3oyUU3VF8iRSWQv2_jRBq5SeGFtXLsBaw8",
+        "y": "tbg2avmc5xTJprXgfc1IY79pMjIb4Upoo8C_Wu0dG-I"
+      }
+    }
+  ],
+  "authentication": [
+    "#9fbd06cea8f247f9b2ee01eee2c5029cvcSigningKey-6fdd8"
+  ],
+  "assertionMethod": [
+    "#9fbd06cea8f247f9b2ee01eee2c5029cvcSigningKey-6fdd8"
+  ]
 }
